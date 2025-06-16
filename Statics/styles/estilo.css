@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: "Tipografía me";
+    src: url(../fonts/kindergarten.ttf) format('truetype');
+}
+body{
+    font-family: "Tipografía me", sans-serif;
+    background-color: #161618;        
+}
+#contenedorbotones{
+    background-color: #161618;
+    border-color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+.botones{
+    
+    font-family: "Tipografía me", sans-serif;
+    background-color:#a78861;
+    border: none;        
+    color: #efe9d3;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.botonesagregar:hover{
+    background-color: #87af7a;       
+    border-color: #87af7a;
+    color: #efe9d3;
+    font-size: 30px;
+}
+.botoneseliminar:hover{
+    background-color: #a43848;
+    border-color: #3a1012;
+    color: #efe9d3;
+    font-size: 30px;
+}
+.nuevatarea{
+    width: 130px;
+    height: 130px;
+
+    background-color: #b32322;
+    color: #efe9d3;
+    font-size: 25px;
+
+    align-content: center;
+    text-align: center;
+
+    margin: 15px;
+}
+#contenedor{
+    width: 100%;
+    height: 100%;
+    background-color: #161618;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#titulo{
+    font-size: 40px;
+    color: #efe9d3;
+}
