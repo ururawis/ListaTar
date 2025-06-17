@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Statics/styles/estilo.css">
-    <script src="../Dynamics/js/listafu.js"></script>
+    
 
     <title>LISTA DE TAREAS</title>
 </head>
@@ -13,10 +13,20 @@
     <section id="contenedorbotones">
         <button id="bagregar" class="botones botonesagregar" onclick="agregartarea()">Añadir tarea</button>
         <button id="beliminar" class="botones botoneseliminar" onclick="eliminartarea()">Eliminar tarea</button> 
+        <button id="toggle" class="botones botonesagregar">Seleccionar tipo de tarea</button>
+        <div id="info" style="display:none">
+        <button id="vote" class="botonespeque botonestipos" onclick="agregarensayo()">Ensayos</button>
+        <button id="vote" class="botonespeque botonestipos" onclick="agregarcuestionario()">Cuestionarios</button>
+        <button id="vote" class="botonespeque botonestipos" onclick="agregarficha()">Fichas</button>
+        <button id="vote" class="botonespeque botonestipos" onclick="agregarreporte()">Reportes</button>
+        <button id="vote" class="botonespeque botonestipos"onclick="agregaresquema()">Esquemas</button>
+        <button id="vote" class="botonespeque botonestipos"onclick="agregarpersonal()">Imagen</button>
+    </div>
     </section>
     <br>
     <br>
     <section id="contenedor">      
     </section>
+    <script src="../Dynamics/js/listafu.js"></script>
 </body>
 </html>

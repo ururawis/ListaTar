@@ -19,7 +19,7 @@ body{
 .botones{
     
     font-family: "Tipografía me", sans-serif;
-    background-color:#a78861;
+    background-color:rgb(175, 107, 17);
     border: none;        
     color: #efe9d3;
     padding: 20px 32px;
@@ -27,6 +27,21 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 25px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.botonespeque{
+    
+    font-family: "Tipografía me", sans-serif;
+    background-color:rgb(126, 12, 28);
+    border: none;        
+    color: #efe9d3;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -43,9 +58,14 @@ body{
     color: #efe9d3;
     font-size: 30px;
 }
+.botonestipos:hover{
+    background-color: #4e171e;       
+    color: #efe9d3;
+    font-size: 15px;
+}
 .nuevatarea{
-    width: 130px;
-    height: 130px;
+    width: 140px;
+    height: 140px;
 
     background-color: #b32322;
     color: #efe9d3;
@@ -68,4 +88,12 @@ body{
 #titulo{
     font-size: 40px;
     color: #efe9d3;
+}
+.item-img {
+  width: 130px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 10px 0;
+  justify-content: center;
 }
